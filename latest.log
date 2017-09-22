@@ -1,0 +1,321 @@
+[21:03:41] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[21:03:51] [Server thread/INFO]:                __        __   ___  __         __  
+[21:03:51] [Server thread/INFO]:     |    |  | /  ` |__/ |__) |__  |__)  |\/| /__` 
+[21:03:51] [Server thread/INFO]:     |___ \__/ \__, |  \ |    |___ |  \  |  | .__/ 
+[21:03:51] [Server thread/INFO]:  
+[21:03:51] [Server thread/INFO]:   Loading version v3.4.8 on Sponge - SpongeForge
+[21:03:51] [Server thread/INFO]:   Running on server version SpongeAPI: 5.2.0-SNAPSHOT-c675e80 - SpongeForge: 1.10.2-2477-5.2.0-BETA-2637
+[21:03:51] [Server thread/INFO]:  
+[21:03:51] [Server thread/INFO]: [LP] Loading configuration...
+[21:03:51] [Server thread/INFO]: [LP] Identified the following dependencies: [H2_DRIVER]
+[21:03:51] [Server thread/INFO]: [LP] Loading storage provider... [H2]
+[21:03:52] [Server thread/INFO]: [LP] Loading internal permission managers...
+[21:03:52] [Server thread/INFO]: [LP] Registering PermissionService...
+[21:03:52] [Server thread/INFO]: [LP] Performing initial data load...
+[21:03:52] [Server thread/INFO]: [LP] Successfully enabled. (took 1384ms)
+[21:03:52] [Server thread/INFO]: --------------------------
+[21:03:52] [Server thread/INFO]: Welcome to Nucleus version 1.1.3-LTS-S5.1, running on Sponge API 5.2.0-SNAPSHOT-c675e80. We're glad you're with us!
+[21:03:52] [Server thread/INFO]: We're now starting up. If you have any questions, visit our documentation site at http://nucleuspowered.org/docs
+[21:03:52] [Server thread/INFO]: You can also add a message to our Sponge Forum thread, or visit us in Discord - https://discord.gg/MC2mAuS
+[21:03:52] [Server thread/INFO]: Discover a bug? Report it at https://github.com/NucleusPowered/Nucleus/issues - adding a copy of the file from /nucleus info to the report!
+[21:03:52] [Server thread/INFO]: --------------------------
+[21:03:59] [Server thread/INFO]: Loading properties
+[21:03:59] [Server thread/INFO]: Default game type: SURVIVAL
+[21:03:59] [Server thread/INFO]: Generating keypair
+[21:03:59] [Server thread/INFO]: Starting Minecraft server on 167.114.157.241:27257
+[21:03:59] [Server thread/INFO]: Using epoll channel type
+[21:04:12] [Server thread/INFO]: Preparing level "world"
+[21:04:14] [Server thread/INFO]: Preparing start region for level 0 (world)
+[21:04:15] [Server thread/INFO]: Preparing spawn area: 1%
+[21:04:16] [Server thread/ERROR]: Chunk file at -651,-1789 is in the wrong location; relocating. (Expected -651, -1789, got -642, -1763)
+[21:04:16] [Server thread/INFO]: Preparing spawn area: 45%
+[21:04:17] [Server thread/INFO]: Preparing start region for level 2 (jail)
+[21:04:18] [Server thread/INFO]: Preparing spawn area: 85%
+[21:04:18] [Server thread/INFO]: Preparing start region for level 3 (build)
+[21:04:19] [Server thread/INFO]: Preparing start region for level 4 (hub)
+[21:04:20] [Server thread/INFO]: Preparing start region for level 5 (Spawn)
+[21:04:21] [Server thread/INFO]: Preparing spawn area: 84%
+[21:04:21] [Server thread/INFO]: Preparing start region for level 0 (world)
+[21:04:21] [Server thread/INFO]: Preparing start region for level 2 (jail)
+[21:04:21] [Server thread/INFO]: Preparing start region for level 3 (build)
+[21:04:21] [Server thread/INFO]: Preparing start region for level 4 (hub)
+[21:04:21] [Server thread/INFO]: Preparing start region for level 5 (Spawn)
+[21:04:21] [Server thread/INFO]: Done (10.129s)! For help, type "help" or "?"
+[21:04:21] [Server thread/INFO]: Starting GS4 status listener
+[21:04:21] [Query Listener #1/INFO]: Query running on 167.114.157.241:59278
+[21:04:55] [User Authenticator #1/INFO]: UUID of player KiritoSanPlays is 8b0ad84d-408b-48b9-9185-b1195e5c67fa
+[21:04:56] [Server thread/INFO]: KiritoSanPlays[/94.226.153.141:60228] logged in with entity id 242 in world(0) at (-10373.330200459597, 75.0, -28488.941548944098)
+[21:04:56] [Server thread/WARN]: Failed to handle packet for /94.226.153.141:60228
+java.lang.NullPointerException
+	at com.erigitic.config.TEAccount.hasBalance(TEAccount.java:109) ~[TEAccount.class:?]
+	at com.erigitic.config.TEAccount.getBalance(TEAccount.java:134) ~[TEAccount.class:?]
+	at org.spongepowered.api.service.economy.account.Account.getBalance(Account.java:143) ~[Account.class:1.10.2-2477-5.2.0-BETA-2637]
+	at uk.co.haxyshideout.pixelmoneconomybridge.events.EconomyEventHandler.onPlayerSpawn(EconomyEventHandler.java:99) ~[EconomyEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_54_EconomyEventHandler_onPlayerSpawn_PlayerLoggedInEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:632) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callPlayerLoggedInEvent(SpongeForgeEventFactory.java:1190) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callForgeEvent(SpongeForgeEventFactory.java:483) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:292) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:326) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:143) ~[SpongeImpl.class:1.10.2-2477-5.2.0-BETA-2637]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1621) ~[mp.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:260) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:73) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) ~[NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:287) ~[eo.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [md.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:732) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_60]
+[21:04:56] [Server thread/INFO]: KiritoSanPlays lost connection: Internal server error
+[21:04:56] [Server thread/INFO]: KiritoSanPlays left the game
+[21:04:57] [pool-2-thread-6/INFO]: There are 0/36 players online.
+[21:05:15] [User Authenticator #2/INFO]: UUID of player DimLittleMuffin is 8d4b2194-8f32-487a-a306-1aa277e4b0b6
+[21:05:16] [Server thread/INFO]: DimLittleMuffin[/47.55.222.255:29387] logged in with entity id 258 in world(0) at (-10306.300000011921, 68.0, -28484.69999998808)
+[21:05:16] [Server thread/WARN]: Failed to handle packet for /47.55.222.255:29387
+java.lang.NullPointerException
+	at com.erigitic.config.TEAccount.hasBalance(TEAccount.java:109) ~[TEAccount.class:?]
+	at com.erigitic.config.TEAccount.getBalance(TEAccount.java:134) ~[TEAccount.class:?]
+	at org.spongepowered.api.service.economy.account.Account.getBalance(Account.java:143) ~[Account.class:1.10.2-2477-5.2.0-BETA-2637]
+	at uk.co.haxyshideout.pixelmoneconomybridge.events.EconomyEventHandler.onPlayerSpawn(EconomyEventHandler.java:99) ~[EconomyEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_54_EconomyEventHandler_onPlayerSpawn_PlayerLoggedInEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:632) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callPlayerLoggedInEvent(SpongeForgeEventFactory.java:1190) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callForgeEvent(SpongeForgeEventFactory.java:483) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:292) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:326) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:143) ~[SpongeImpl.class:1.10.2-2477-5.2.0-BETA-2637]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1621) ~[mp.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:260) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:73) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) ~[NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:287) ~[eo.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [md.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:732) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_60]
+[21:05:19] [Server thread/INFO]: DimLittleMuffin lost connection: Disconnected
+[21:05:19] [Server thread/INFO]: DimLittleMuffin left the game
+[21:05:31] [pool-2-thread-3/INFO]: There are 0/36 players online.
+[21:05:42] [User Authenticator #3/INFO]: UUID of player DimLittleMuffin is 8d4b2194-8f32-487a-a306-1aa277e4b0b6
+[21:05:43] [Server thread/INFO]: DimLittleMuffin[/47.55.222.255:29399] logged in with entity id 347 in world(0) at (-10306.300000011921, 68.0, -28484.69999998808)
+[21:05:43] [Server thread/WARN]: Failed to handle packet for /47.55.222.255:29399
+java.lang.NullPointerException
+	at com.erigitic.config.TEAccount.hasBalance(TEAccount.java:109) ~[TEAccount.class:?]
+	at com.erigitic.config.TEAccount.getBalance(TEAccount.java:134) ~[TEAccount.class:?]
+	at org.spongepowered.api.service.economy.account.Account.getBalance(Account.java:143) ~[Account.class:1.10.2-2477-5.2.0-BETA-2637]
+	at uk.co.haxyshideout.pixelmoneconomybridge.events.EconomyEventHandler.onPlayerSpawn(EconomyEventHandler.java:99) ~[EconomyEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_54_EconomyEventHandler_onPlayerSpawn_PlayerLoggedInEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:632) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callPlayerLoggedInEvent(SpongeForgeEventFactory.java:1190) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callForgeEvent(SpongeForgeEventFactory.java:483) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:292) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:326) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:143) ~[SpongeImpl.class:1.10.2-2477-5.2.0-BETA-2637]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1621) ~[mp.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:260) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:73) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) ~[NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:287) ~[eo.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [md.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:732) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_60]
+[21:05:45] [Server thread/INFO]: DimLittleMuffin lost connection: Disconnected
+[21:05:45] [Server thread/INFO]: DimLittleMuffin left the game
+[21:06:06] [pool-2-thread-3/INFO]: There are 0/36 players online.
+[21:06:12] [User Authenticator #4/INFO]: UUID of player DimLittleMuffin is 8d4b2194-8f32-487a-a306-1aa277e4b0b6
+[21:06:14] [Server thread/INFO]: DimLittleMuffin[/47.55.222.255:29411] logged in with entity id 380 in world(0) at (-10306.300000011921, 68.0, -28484.69999998808)
+[21:06:14] [Server thread/WARN]: Failed to handle packet for /47.55.222.255:29411
+java.lang.NullPointerException
+	at com.erigitic.config.TEAccount.hasBalance(TEAccount.java:109) ~[TEAccount.class:?]
+	at com.erigitic.config.TEAccount.getBalance(TEAccount.java:134) ~[TEAccount.class:?]
+	at org.spongepowered.api.service.economy.account.Account.getBalance(Account.java:143) ~[Account.class:1.10.2-2477-5.2.0-BETA-2637]
+	at uk.co.haxyshideout.pixelmoneconomybridge.events.EconomyEventHandler.onPlayerSpawn(EconomyEventHandler.java:99) ~[EconomyEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_54_EconomyEventHandler_onPlayerSpawn_PlayerLoggedInEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:632) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callPlayerLoggedInEvent(SpongeForgeEventFactory.java:1190) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callForgeEvent(SpongeForgeEventFactory.java:483) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:292) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:326) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:143) ~[SpongeImpl.class:1.10.2-2477-5.2.0-BETA-2637]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1621) ~[mp.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:260) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:73) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) ~[NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:287) ~[eo.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [md.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:732) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_60]
+[21:06:17] [Server thread/INFO]: DimLittleMuffin lost connection: Disconnected
+[21:06:17] [Server thread/INFO]: DimLittleMuffin left the game
+[21:06:41] [pool-2-thread-6/INFO]: There are 0/36 players online.
+[21:07:00] [User Authenticator #5/INFO]: UUID of player DimLittleMuffin is 8d4b2194-8f32-487a-a306-1aa277e4b0b6
+[21:07:00] [Server thread/INFO]: DimLittleMuffin[/47.55.222.255:29425] logged in with entity id 406 in world(0) at (-10306.300000011921, 68.0, -28484.69999998808)
+[21:07:00] [Server thread/WARN]: Failed to handle packet for /47.55.222.255:29425
+java.lang.NullPointerException
+	at com.erigitic.config.TEAccount.hasBalance(TEAccount.java:109) ~[TEAccount.class:?]
+	at com.erigitic.config.TEAccount.getBalance(TEAccount.java:134) ~[TEAccount.class:?]
+	at org.spongepowered.api.service.economy.account.Account.getBalance(Account.java:143) ~[Account.class:1.10.2-2477-5.2.0-BETA-2637]
+	at uk.co.haxyshideout.pixelmoneconomybridge.events.EconomyEventHandler.onPlayerSpawn(EconomyEventHandler.java:99) ~[EconomyEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_54_EconomyEventHandler_onPlayerSpawn_PlayerLoggedInEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:632) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callPlayerLoggedInEvent(SpongeForgeEventFactory.java:1190) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callForgeEvent(SpongeForgeEventFactory.java:483) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:292) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:326) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:143) ~[SpongeImpl.class:1.10.2-2477-5.2.0-BETA-2637]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1621) ~[mp.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:260) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:73) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) ~[NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:287) ~[eo.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [md.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:732) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_60]
+[21:07:02] [Server thread/INFO]: DimLittleMuffin lost connection: Disconnected
+[21:07:03] [Server thread/INFO]: DimLittleMuffin left the game
+[21:07:16] [pool-2-thread-9/INFO]: There are 0/36 players online.
+[21:07:39] [User Authenticator #6/INFO]: UUID of player DimLittleMuffin is 8d4b2194-8f32-487a-a306-1aa277e4b0b6
+[21:07:39] [Server thread/INFO]: DimLittleMuffin[/47.55.222.255:29437] logged in with entity id 429 in world(0) at (-10306.300000011921, 68.0, -28484.69999998808)
+[21:07:39] [Server thread/WARN]: Failed to handle packet for /47.55.222.255:29437
+java.lang.NullPointerException
+	at com.erigitic.config.TEAccount.hasBalance(TEAccount.java:109) ~[TEAccount.class:?]
+	at com.erigitic.config.TEAccount.getBalance(TEAccount.java:134) ~[TEAccount.class:?]
+	at org.spongepowered.api.service.economy.account.Account.getBalance(Account.java:143) ~[Account.class:1.10.2-2477-5.2.0-BETA-2637]
+	at uk.co.haxyshideout.pixelmoneconomybridge.events.EconomyEventHandler.onPlayerSpawn(EconomyEventHandler.java:99) ~[EconomyEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_54_EconomyEventHandler_onPlayerSpawn_PlayerLoggedInEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:632) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callPlayerLoggedInEvent(SpongeForgeEventFactory.java:1190) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callForgeEvent(SpongeForgeEventFactory.java:483) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:292) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:326) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:143) ~[SpongeImpl.class:1.10.2-2477-5.2.0-BETA-2637]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1621) ~[mp.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:260) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:73) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) ~[NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:287) ~[eo.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [md.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:732) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_60]
+[21:07:41] [Server thread/INFO]: DimLittleMuffin lost connection: Disconnected
+[21:07:41] [Server thread/INFO]: DimLittleMuffin left the game
+[21:07:51] [pool-2-thread-6/INFO]: There are 0/36 players online.
+[21:08:26] [pool-2-thread-9/INFO]: There are 0/36 players online.
+[21:08:43] [User Authenticator #7/INFO]: UUID of player zppx is 4c003e2e-e4be-4800-84ff-2ed45e2d4f9d
+[21:08:45] [Server thread/INFO]: zppx[/71.71.69.236:53279] logged in with entity id 465 in world(0) at (17998.289790679526, 75.0, 549.8558307538699)
+[21:08:45] [Server thread/WARN]: Failed to handle packet for /71.71.69.236:53279
+java.lang.NullPointerException
+	at com.erigitic.config.TEAccount.hasBalance(TEAccount.java:109) ~[TEAccount.class:?]
+	at com.erigitic.config.TEAccount.getBalance(TEAccount.java:134) ~[TEAccount.class:?]
+	at com.erigitic.config.TEAccount.deposit(TEAccount.java:265) ~[TEAccount.class:?]
+	at org.spongepowered.api.service.economy.account.Account.deposit(Account.java:294) ~[Account.class:1.10.2-2477-5.2.0-BETA-2637]
+	at uk.co.haxyshideout.pixelmoneconomybridge.events.EconomyEventHandler.onPlayerSpawn(EconomyEventHandler.java:96) ~[EconomyEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_54_EconomyEventHandler_onPlayerSpawn_PlayerLoggedInEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:632) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callPlayerLoggedInEvent(SpongeForgeEventFactory.java:1190) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callForgeEvent(SpongeForgeEventFactory.java:483) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:292) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:326) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:143) ~[SpongeImpl.class:1.10.2-2477-5.2.0-BETA-2637]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1621) ~[mp.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:260) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:73) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) ~[NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:287) ~[eo.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [md.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:732) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_60]
+[21:08:45] [Server thread/INFO]: zppx lost connection: Internal server error
+[21:08:45] [Server thread/INFO]: zppx left the game
+[21:09:01] [pool-2-thread-8/INFO]: There are 0/36 players online.
+[21:09:14] [User Authenticator #8/INFO]: Disconnecting /47.55.222.255:29516: Failed to verify username!
+[21:09:14] [User Authenticator #8/ERROR]: Username 'DimLittleMuffin' tried to join with an invalid session
+[21:09:14] [Server thread/INFO]: /47.55.222.255:29516 lost connection: Failed to verify username!
+[21:09:36] [pool-2-thread-6/INFO]: There are 0/36 players online.
+[21:09:52] [User Authenticator #9/INFO]: UUID of player KiritoSanPlays is 8b0ad84d-408b-48b9-9185-b1195e5c67fa
+[21:09:54] [Server thread/INFO]: KiritoSanPlays[/94.226.153.141:60577] logged in with entity id 492 in world(0) at (-10373.330200459597, 75.0, -28488.941548944098)
+[21:09:54] [Server thread/WARN]: Failed to handle packet for /94.226.153.141:60577
+java.lang.NullPointerException
+	at com.erigitic.config.TEAccount.hasBalance(TEAccount.java:109) ~[TEAccount.class:?]
+	at com.erigitic.config.TEAccount.getBalance(TEAccount.java:134) ~[TEAccount.class:?]
+	at org.spongepowered.api.service.economy.account.Account.getBalance(Account.java:143) ~[Account.class:1.10.2-2477-5.2.0-BETA-2637]
+	at uk.co.haxyshideout.pixelmoneconomybridge.events.EconomyEventHandler.onPlayerSpawn(EconomyEventHandler.java:99) ~[EconomyEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_54_EconomyEventHandler_onPlayerSpawn_PlayerLoggedInEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:632) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callPlayerLoggedInEvent(SpongeForgeEventFactory.java:1190) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeForgeEventFactory.callForgeEvent(SpongeForgeEventFactory.java:483) ~[SpongeForgeEventFactory.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:292) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:338) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:326) ~[SpongeModEventManager.class:1.10.2-2477-5.2.0-BETA-2637]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:143) ~[SpongeImpl.class:1.10.2-2477-5.2.0-BETA-2637]
+	at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:1621) ~[mp.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:260) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:73) ~[NetworkDispatcher.class:?]
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.func_73660_a(NetworkDispatcher.java:209) ~[NetworkDispatcher$1.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:287) ~[eo.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [md.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:732) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:387) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:613) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:471) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_60]
+[21:10:03] [Server thread/INFO]: KiritoSanPlays lost connection: Disconnected
+[21:10:03] [Server thread/INFO]: KiritoSanPlays left the game
+[21:10:11] [pool-2-thread-9/INFO]: There are 0/36 players online.
+[21:10:45] [pool-2-thread-3/INFO]: There are 0/36 players online.
+[21:11:21] [pool-2-thread-8/INFO]: There are 0/36 players online.
+[21:11:56] [pool-2-thread-11/INFO]: There are 0/36 players online.
+[21:12:31] [pool-2-thread-11/INFO]: There are 0/36 players online.
+[21:13:00] [pool-2-thread-10/INFO]: [ClearLag] Ground items will be cleared in 60 seconds.
+[21:13:05] [pool-2-thread-10/INFO]: There are 0/36 players online.
+[21:13:16] [Server thread/INFO]: Saving...
+[21:13:16] [Server thread/INFO]: Saved the world
+[21:13:16] [Server thread/INFO]: [LP] Closing storage...
+[21:13:16] [Server thread/INFO]: [LP] Closing messaging service...
+[21:13:16] [Server thread/INFO]: [LP] Shutting down internal scheduler...
+[21:13:16] [Server thread/INFO]: Stopping server
+[21:13:16] [Server thread/INFO]: Saving players
+[21:13:16] [Server thread/INFO]: Saving worlds
+[21:13:16] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:13:16] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
+[21:13:16] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
+[21:13:16] [Server thread/INFO]: Saving chunks for level 'jail'/Overworld
+[21:13:16] [Server thread/INFO]: Saving chunks for level 'build'/Overworld
+[21:13:16] [Server thread/INFO]: Saving chunks for level 'hub'/Overworld
+[21:13:16] [Server thread/INFO]: Saving chunks for level 'Spawn'/Overworld
+[21:13:17] [Server Shutdown Thread/INFO]: Stopping server
